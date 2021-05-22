@@ -37,7 +37,7 @@
 > timelineElem
 >
 > > timeline category  
-> > title / subtitle / body contents
+> > title / subtitle / desc(기간) / body contents
 >
 > imagesElem
 >
@@ -56,13 +56,13 @@ Heading
 
 ```html
 <li
-  class="
+   class="
     timeline-heading
     text-center
     animate-box
     "
 >
-  <div><h3>heading contents</h3></div>
+   <div><h3>heading contents</h3></div>
 </li>
 ```
 
@@ -76,7 +76,8 @@ li class = "animate-box timeline-inverted/timeline-unverted"
 > timeline-heading
 >
 > > timeline-title  
-> > timeline-subtitle
+> > timeline-subtitle  
+> > timeline-desc
 >
 > timeline-body  
 >  }
