@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="style.css">
+        
+        <title>SKKU TODO</title>
+        <style>
+
+            input {
+                width:80%;
+                height:30px;                
+            }
+
+            button {
+                width:15%;
+                height:30px;
+            }
+
+            .container {
+			width: 1000px;
+		    }
+            .textbox{
+                margin:0 0 0 0;
+                font: small-caps bold 24px/1 sans-serif;
+                height: 50px;
+                width: 1000px;
+                font-size: 50px;
+                font-weight: bold;
+                text-align: center;
+                float:left;
+            }
+            
+            body{
+                
+                background-image : url('https://s2.best-wallpaper.net/wallpaper/5120x2880/2101/Wall-steps_5120x2880.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                height:100%;
+            }
+
+            html{
+                height:100%;
+            }
+
+            #alldiv {
+                width: 100%;
+                height: 100%;
+                background-color: rgba( 255, 255, 255, 0.5 );
+                text-align: center;
+            }
+
+            #title_div{
+                height:50px;
+                margin:25px;
+                padding-top: 15px;
+                background-color: rgba( 255, 255, 255, 0.5 );
+            }
+
+            #input_div{
+                height:50px;
+                margin:25px;
+                padding-top: 15px;
+                background-color: rgba( 255, 255, 255, 0.5 );
+            }
+
+            #chose_tema{
+                height:auto;
+                margin:25px;
+                padding-top: 30px;
+                padding-bottom: 40px;
+                padding-left:10%;
+                padding-right: 10%;
+                padding-top: 15px;
+                background-color: rgba( 255, 255, 255, 0.5 );
+            }
+
+            #chose_tema input{
+                float:left;
+                width:29%;
+            }
+
+            #radio_input{
+
+            }
+
+            #tema_img{
+                width:300px;
+                height:200px;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            #okbtn {
+                float:right;
+                padding:10px;
+                width:80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="alldiv">
+            <div id="title_div"><div class="textbox"><center>Glad to Meet You</center>  </div> <button id="okbtn">OK</button></div>
+
+            <div id="input_div" >
+                <div>
+                    <input type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+                
+            </div>
+
+            <div id="input_div" >
+                <div>
+                    <input type="text" placeholder="Recipient's email" aria-label="Rcipient's email" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+                
+            </div>
+
+            <div id="input_div" >
+                <div>
+                    <input type="text" placeholder="Recipient's phonenumber" aria-label="Recipient's phonenumber" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+                
+            </div>
+            
+            <div  id="input_div">
+                <div> 
+                    <input type="file" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                </div>
+
+            
+            </div>
+            <div id="chose_tema">
+                <img id="tema_img" src="img1.png"><img id="tema_img" src="img2.png"><img id="tema_img" src="img3.png">
+                <input id="radio_input" type="radio" name="chk_info" value="1" style="margin-left:4%;">
+                <input id="radio_input" type="radio" name="chk_info" value="2" style="margin-left:2%;">
+                <input id="radio_input" type="radio" name="chk_info" value="3" style="margin-left:3%;">
+            </div>
+        </div>
+
+        
+
+    </body>
+</html>
