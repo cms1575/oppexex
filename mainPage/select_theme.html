@@ -53,19 +53,6 @@
                               <div class="theme-overlay">
                                  <div class="icon">
                                     <div class="inline-blocked">
-                                       <!--<a
-                                          href="javascript:;"
-                                          class="
-                                             hidden-xs
-                                             width-4
-                                             text-15
-                                             btn btn-theme btn-primary
-                                             margin-bottom-xl margin-top-xl
-                                             blocked
-                                             _start
-                                          "
-                                          >개설하기</a
-                                       >-->
                                        <a
                                           href="../templates/1/index.html"
                                           class="
@@ -102,8 +89,8 @@
                            <input
                               class="form-check-input"
                               type="checkbox"
+                              id="form-check-input-1"
                               value=""
-                              id="flexCheckDefault"
                            />
                         </div>
                      </div>
@@ -118,19 +105,6 @@
                               <div class="theme-overlay">
                                  <div class="icon">
                                     <div class="inline-blocked">
-                                       <!--<a
-                                          href="javascript:;"
-                                          class="
-                                             hidden-xs
-                                             width-4
-                                             text-15
-                                             btn btn-theme btn-primary
-                                             margin-bottom-xl margin-top-xl
-                                             blocked
-                                             _start
-                                          ""
-                                          >개설하기</a
-                                       >-->
                                        <a
                                           href="../templates/2/index.html"
                                           class="
@@ -167,8 +141,8 @@
                            <input
                               class="form-check-input"
                               type="checkbox"
+                              id="form-check-input-2"
                               value=""
-                              id="flexCheckDefault"
                            />
                         </div>
                      </div>
@@ -183,19 +157,6 @@
                               <div class="theme-overlay">
                                  <div class="icon">
                                     <div class="inline-blocked">
-                                       <!--<a
-                                          href="javascript:;"
-                                          class="
-                                             hidden-xs
-                                             width-4
-                                             text-15
-                                             btn btn-theme btn-primary
-                                             margin-bottom-xl margin-top-xl
-                                             blocked
-                                             _start
-                                          "
-                                          >개설하기</a
-                                       >-->
                                        <a
                                           href="../templates/3/index.html"
                                           class="
@@ -233,7 +194,7 @@
                               class="form-check-input"
                               type="checkbox"
                               value=""
-                              id="flexCheckDefault"
+                              id="form-check-input-3"
                            />
                         </div>
                      </div>
@@ -330,10 +291,21 @@
                      blocked
                      _start
                   "
-                  >입력</a
+                  >추가</a
                >
             </div>
             <form class="row g-3">
+               <div class="col-auto">
+                  <label for="timeline-title-input" class="input-form-label"
+                     >WHAT</label
+                  >
+                  <input
+                     type="text"
+                     class="form-control-plaintext"
+                     id="timeline-title-input"
+                  />
+               </div>
+
                <div class="col-auto">
                   <label for="timeline-desc-input" class="input-form-label"
                      >WHEN</label
@@ -352,17 +324,6 @@
                      type="text"
                      class="form-control-plaintext"
                      id="timeline-subtitle-input"
-                  />
-               </div>
-
-               <div class="col-auto">
-                  <label for="timeline-title-input" class="input-form-label"
-                     >WHAT</label
-                  >
-                  <input
-                     type="text"
-                     class="form-control-plaintext"
-                     id="timeline-title-input"
                   />
                </div>
 
@@ -395,5 +356,7 @@
             </div>
          </div>
       </section>
+
+      <script src="scripts/select_theme.js"></script>
    </body>
 </html>
