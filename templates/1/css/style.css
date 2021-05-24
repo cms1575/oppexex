@@ -595,7 +595,7 @@ figure {
    top: 0;
 }
 
-.work {
+.archive-image {
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
@@ -606,16 +606,16 @@ figure {
    overflow: hidden;
 }
 @media screen and (max-width: 768px) {
-   .work {
+   .archive-image {
       height: 400px;
    }
 }
 @media screen and (max-width: 480px) {
-   .work {
+   .archive-image {
       height: 270px;
    }
 }
-.work .desc {
+.archive-image .archive-desc {
    display: table-cell;
    vertical-align: middle;
    height: 270px;
@@ -625,14 +625,14 @@ figure {
    -o-transition: 0.3s;
    transition: 0.3s;
 }
-.work .desc h3 {
+.archive-image .archive-desc h3 {
    font-size: 20px;
    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
    transition: transform 0.3s, opacity 0.3s;
    -webkit-transform: translate3d(0, -15px, 0);
    transform: translate3d(0, -15px, 0);
 }
-.work .desc span {
+.archive-image .archive-desc span {
    display: block;
    color: #999999;
    font-size: 14px;
@@ -642,27 +642,27 @@ figure {
    transform: translate3d(0, 15px, 0);
 }
 @media screen and (max-width: 768px) {
-   .work .desc {
+   .archive-image .archive-desc {
       opacity: 1;
       background: rgba(255, 255, 255, 0.6);
    }
-   .work .desc h3 {
+   .archive-image .archive-desc h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
    }
-   .work .desc span {
+   .archive-image .archive-desc span {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
    }
 }
-.work:hover .desc {
+.archive-image:hover .archive-desc {
    opacity: 1;
 }
-.work:hover .desc h3 {
+.archive-image:hover .archive-desc h3 {
    -webkit-transform: translate3d(0, 0, 0);
    transform: translate3d(0, 0, 0);
 }
-.work:hover .desc span {
+.archive-image:hover .archive-desc span {
    -webkit-transform: translate3d(0, 0, 0);
    transform: translate3d(0, 0, 0);
 }

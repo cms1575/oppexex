@@ -37,47 +37,13 @@
 > timelineElem
 >
 > > timeline category  
-> > title / subtitle / desc(기간) / body contents
+> > title / subtitle / desc / body contents
 >
 > imagesElem
 >
-> > image / description
+> > class: archive-image / archive-desc
 >
 > contactElem
 >
 > > None, 위에서 입력받은 e-mail 정보 사용  
 > > templates/3/mail.php 스크립트 파일 참고
-
-## Timeline composition
-
-형식 맞춰서 입력받기: Heading으로 카테고라이징 할 수 있고 + icon 제외하고 title/subtitle/body
-
-Heading
-
-```html
-<li
-   class="
-    timeline-heading
-    text-center
-    animate-box
-    "
->
-   <div><h3>heading contents</h3></div>
-</li>
-```
-
-Contents
-
-li class = "animate-box timeline-inverted/timeline-unverted"
-
-> timeline-badge: icon
-
-> timeline-panel {  
-> timeline-heading
->
-> > timeline-title  
-> > timeline-subtitle  
-> > timeline-desc
->
-> timeline-body  
->  }
