@@ -28,7 +28,8 @@ At the Template selecting area, you can preview what that template does look lik
 
 
 
-## 🤝 Contributing
+## 🤝 
+## 🔗 YouTube link, 코드 설명 등등
 
 ## 📝 Code explanation
 ## 👤 Teamaetes
