@@ -1,6 +1,6 @@
 <h1 align="center">Team22's project GMYou(Glad to Meet You) 👋</h1>
 <p align="center">Open Source Software Practice_SWE2021_41</p>
-
+      
 ## ✨ Project Motives
 >Learning the git and front-end fundamentals through this lecture, We thought that the final project deliverables should be open-source software to create a universal and practical service. By organizing >information about yourself and branding and visualizing individuals, user can effectively introduce himself >to others on the web. Motivated by existing tools that can produce websites or portfolio pages, we selected >the web application `GladtoMeetyou`, which produces personal profile pages based on user-entered >information (text, images, and videos), as the project theme.
 
